@@ -433,6 +433,14 @@ section {
  padding:100px 0;
  position:relative
 }
+
+/* section.contact {
+    padding: 0px 0;
+    position:relative
+   } */
+
+
+
 .big-input,
 .big-textarea,
 .big-select select {

@@ -386,6 +386,7 @@ a:hover, a:active {
  fill:#252525
 }
 
+
 .banner-words-wrapper {
  display:inline-block;
  position:relative;
@@ -1850,7 +1851,7 @@ ul.countdown li p.timeRefSeconds {
  padding:100px 0px
 }
 .footer-bottom {
- padding:25px 0px
+ padding: 10px 0px
 }
 .footer-bottom a:hover {
  color:#000
@@ -2141,7 +2142,9 @@ ul.countdown li p.timeRefSeconds {
  }
 }
 
-
+section.contact {
+    padding: 0px 0 0 0;
+}
 
 /* ------------------------------ MEDIA QUERY max-width 575px SCREEN ------------------------------ */
 @media screen and (max-width: 575px) {
@@ -2154,174 +2157,12 @@ ul.countdown li p.timeRefSeconds {
 
 
 /* No media query for `xs` since this is the default in Bootstrap */
+/* Mobile-Potrait **** DEFAULT ****** (480px > ) */
 
+@media screen and (max-width: 560px) {
 
-
-
-/* Extra small devices (portrait phones, less than or euqal to 320x568px ) */
-
-@media (min-width: 200px) and (min-height: 568px) {
     header {
-        background-image: url("../img/LYCS_BLUR_360x640px_center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-    .main-timeline:before {
-        background: transparent;
-    }
-
-}
-
-
-@media (min-width: 320px) and (min-height: 568px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_360x640px_center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-    .main-timeline:before {
-        background: transparent;
-    }
-
-}
-@media (min-width: 360px) and (min-height: 740px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_360x640px_center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-    .main-timeline:before {
-        background: transparent;
-    }
-
-}
-
-
-/* Extra small devices (portrait phones, less than or euqal to 375x667px ) */
-
-@media (min-width: 375px) and (min-height: 667px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_360x640px_center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-    .main-timeline:before {
-        background: transparent;
-    }
-
-}
-
-/* Extra small devices (portrait phones, less than or euqal to 375x812px ) */
-
-@media (min-width: 375px) and (min-height: 812px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_400x812_002_center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-    .main-timeline:before {
-        background: transparent;
-    }
-
-}
-
-/* Small devices (portrait phones, 414x736px and up) */
-
-@media (min-width: 414px) and (min-height: 736px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_414x896px_center_02.jpg");
-        }
-    
-    .nav-transparent img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 12vw;
-        margin-left: 3vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-
-    .main-timeline:before {
-        background: transparent;
-    }
-
-}
-
-/* Small devices (portrait phones, 414x896px and up) */
-
-@media (min-width: 414px) and (min-height: 896px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_414x896px_center.jpg");
+        background-image: url("../img/LYCS_BLUR_621x896_002_BLUR_Center.jpg");
         }
     
     .nav-transparent img {
@@ -2345,65 +2186,8 @@ ul.countdown li p.timeRefSeconds {
 }
 
 
-/* Small devices (landscape phones, 896x414px and up) */
-
-@media (min-width: 568px) and (max-height: 499px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_896x414px_Landscape_center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-    .main-timeline:before {
-        background: transparent;
-    }
-
-
-}
-
-/* Small devices (landscape phones, 896x414px and up) */
-
-@media (min-width: 568px) and (min-height: 500px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_768x1024px_center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-    .main-timeline:before {
-        background: transparent;
-    }
-
-}
-
-
-/* Small devices (landscape phones, 896x414px and up) */
-
-@media (min-width: 740px) and (max-height: 399px) {
+/* Mobile-Landscape and larger (480px and up) */
+@media screen and (min-width: 480px) {
     header {
         background-image: url("../img/LYCS_BLUR_896x414px_Landscape_center.jpg");
         }
@@ -2428,178 +2212,53 @@ ul.countdown li p.timeRefSeconds {
 
 }
 
-/* Small devices (landscape phones, 896x414px and up) */
 
-@media (min-width: 740px) and (min-height: 400px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_768x1024px_center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-    .main-timeline:before {
-        background: transparent;
+/* Mobile-Portrait Large (575px and up) */
+@media screen and (min-width: 575px) {
+    #contact-row {
+        background-color: #F7F7F7;
     }
-
-    .phone-envelope {
-        margin-top: 1vh;
-      }
-
-    .phone-number, .email-addy {
-        font-family: "Poppins", sans-serif;
-        font-size: 12px;
-        font-weight: 300;
-        line-height: 20px;
-        color: #fff;
-    }
-
-}
-
-/* Small devices (landscape phones, 896x414px and up) */
-
-@media (min-width: 800px) and (max-height: 414px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_896x414px_Landscape_center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-    .main-timeline:before {
-        background: transparent;
-    }
-
-}
-
-/* Small devices (landscape phones, 896x414px and up) */
-
-@media (min-width: 800px) and (min-height: 415px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_1366x1366_001_BLUR_Center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-    .main-timeline:before {
-        background: transparent;
-    }
-
 }
 
 
-/* Medium devices (tablets, 768x1024px and up) */
-@media (min-width: 768px) and (min-height: 1024px) {
-    header {
-        background-image: url("../img/LYCS_BLUR_1024x1366px_center.jpg");
-    }
-
-    .nav-transparent img {
-        height: 7vw;
-        margin-left: 1vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 7vw;
-        margin-left: 1vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-}
-
-/* Large devices (desktops, 1024x768px and up) */
-@media (min-width: 1024px) and (min-height: 768px) {
-
-    header {
-        background-image: url("../img/LYCS_BLUR_1024x768px_Center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 8vw;
-        margin-left: 1vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 8vw;
-        margin-left: 1vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-    
-    .main-timeline:before {
-        background: transparent;
-    }
-
-}
 
 
-/* Large devices (desktops, 1024x1366px and up) */
-@media (min-width: 1024px) and (min-height: 1366px) {
+
+
+/* Tablet-Portrait and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
     header {
         background-image: url("../img/LYCS_BLUR_1024x1366px_center.jpg");
         }
 
     .nav-transparent img {
-        height: 10vw;
-        margin-left: 3vw;
+        height: 6vw;
+        margin-left: 1vw;
         margin-top: 1vw;
         }
     
     .nav-scroll img {
-        height: 10vw;
-        margin-left: 3vw;
+        height: 6vw;
+        margin-left: 1vw;
         margin-top: 0vw;
         padding-top: 0.5vw;
         padding-bottom: 0.5vw;
         }
     
     .main-timeline:before {
-        background: transparent;
-    }
+        background:#c6c6c6;
+        }
+       
 }
 
 
-/* Large devices (desktops, 1024x768px and up) */
-@media (min-width: 768px) {
+/* Mobile-Landscape and larger (770px and up) */
+@media screen and (min-width: 770px) and (max-height: 450px) {
+
+    header {
+        background-image: url("../img/LYCS_BLUR_896x414px_Landscape_center.jpg");
+        }
 
     .nav-transparent img {
         height: 6vw;
@@ -2622,9 +2281,8 @@ ul.countdown li p.timeRefSeconds {
 }
 
 
-
-/* Large devices (desktops, 1024x768px and up) */
-@media (min-width: 900px) {
+/* Tablet-Landscape and larger (992px and up) */
+@media screen and (min-width: 992px) {
     header {
         background-image: url("../img/LYCS_BLUR_1024x768px_Center.jpg");
         }
@@ -2644,36 +2302,30 @@ ul.countdown li p.timeRefSeconds {
         }
 }
 
-
-/* Medium devices (tablets, 768x1024px and up) */
-@media (min-height: 1300px) {
+/* Tablet-Portrait LARGE (992px and up) */
+@media screen and (min-width: 994px) and (min-height: 1200px) {
     header {
-        background-image: url("../img/LYCS_BLUR_1366x1366_001_BLUR_Center.jpg");
-    }
+        background-image: url("../img/LYCS_BLUR_1024x1366px_center.jpg");
+        }
 
     .nav-transparent img {
-        height: 7vw;
+        height: 5vw;
         margin-left: 1vw;
         margin-top: 1vw;
         }
     
     .nav-scroll img {
-        height: 7vw;
+        height: 5vw;
         margin-left: 1vw;
         margin-top: 0vw;
         padding-top: 0.5vw;
         padding-bottom: 0.5vw;
         }
-    
-    .main-timeline:before {
-        background:#c6c6c6;
-    }
-
 }
 
 
-/* Extra large devices (large desktops, 1280x950px and up) */
-@media (min-width: 1200px) {
+/* Laptops small (1200px and up) */
+@media screen and (min-width: 1200px) {
     header {
         background-image: url("../img/LYCS_BLUR_1280x950px_center.jpg");
         }
@@ -2694,31 +2346,8 @@ ul.countdown li p.timeRefSeconds {
     
 }
 
-/* Extra large devices (large desktops, 1366x768px and up) */
-@media (min-width: 1300px) {
-    header {
-        /* background-image: url("../img/LYCS_BLUR_1366x768px.jpg"); */
-        background-image: url("../img/LYCS_BLUR_1280x950px_center.jpg");
-        }
-
-    .nav-transparent img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 1vw;
-        }
-    
-    .nav-scroll img {
-        height: 5vw;
-        margin-left: 1vw;
-        margin-top: 0vw;
-        padding-top: 0.5vw;
-        padding-bottom: 0.5vw;
-        }
-
-}
-
-/* Extra large devices (large desktops, 1440x900px and up) */
-@media (min-width: 1400px) {
+/* Laptops large (1400px and up) */
+@media screen and (min-width: 1400px) {
     header {
         background-image: url("../img/LYCS_BLUR_1440x900_004_BLUR_center.jpg");
         }
@@ -2738,10 +2367,10 @@ ul.countdown li p.timeRefSeconds {
         }
 }
 
-/* Extra large devices (large desktops, 1920x1080px and up) */
-@media (min-width: 1900px) {
+/* Desktop or X-Large devices (1900px and up) */
+@media screen and (min-width: 1900px) {
     header {
-        background: url("../img/LYCS_BLUR_1920x1080_005_BLUR_Center.jpg") top right;
+        background: url("../img/LYCS_BLUR_1920x1080_005_BLUR_Center.jpg");
         }
 
     .nav-transparent img {
@@ -2759,6 +2388,7 @@ ul.countdown li p.timeRefSeconds {
         }
 
 }
+
 
 
 /*# sourceMappingURL=style.css.map */
