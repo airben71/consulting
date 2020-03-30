@@ -45,6 +45,10 @@
  color:#232323
 }
 
+.theme-black-color-parallax {
+    color: white;
+}
+
 .bg-img {
  background-size: cover;
  background-repeat: no-repeat;
@@ -275,8 +279,6 @@ a:hover, a:active {
 }
 
 
-/* <img src="./img/logo-Getronic_Grey.png" class="getronics" alt="Getronics Logo" width="50%"> */
-
 .bloomio img, .dell img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -295,35 +297,17 @@ a:hover, a:active {
 }
 
 
-
-/* .getronics img:hover {
-    background: url("../img/logo-Getronic.png");
-} */
-
-/* .logo-linkedin:hover {
-    filter: invert(29%) sepia(98%) saturate(1466%) hue-rotate(176deg) brightness(92%) contrast(101%);
-} */
-
-
-/* .social-links a:first-child {
- margin-left:0
-} */
-
-/* .social-links a:last-child {
- margin-right:0
-} */
-
 .hover-white a:hover {
  color:#fff
 }
 
 .banner-headline {
  font-size:2.5rem;
- line-height:1.2
+ line-height:1.2;
 }
 
 .banner-headline.medium {
- font-size:1.6rem
+ font-size:1.6rem;
 }
 
 
@@ -367,6 +351,30 @@ a:hover, a:active {
  width:100%;
  z-index:2
 }
+
+.svg-bottom-pic {
+    position:absolute;
+    bottom:-70px;
+    left:0;
+    width:100%;
+    z-index:2
+   }
+
+.svg-top {
+    position:absolute;
+    top:-30px;
+    left:0;
+    width:100%;
+    z-index:2
+   }
+
+   .svg-top-md {
+    position:absolute;
+    top:-31px;
+    left:0;
+    width:100%;
+    z-index:2
+   }
 
 .svg svg {
  fill:#fff;
@@ -453,6 +461,11 @@ a:hover, a:active {
  background:#232323;
  border-color:#232323
 }
+
+.owl-theme p {
+    color: white;
+}
+
 .bg-vid {
  position:absolute;
  top:0;
@@ -1083,6 +1096,36 @@ a:hover, a:active {
  font-size:10px;
  color:#777
 } */
+
+/* -- Parallax Window Section--- */
+/* requires sources to Jquery and Parallax.js in the HTML doc */
+
+.parallax {
+    min-height: 50px;
+    padding: 85px 35px 80px 35px;
+    background: transparent;
+}
+
+.parallax p {
+    z-index: 1; 
+}
+
+.parallax-info {
+    position: relative;
+    z-index: 2; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+/* -- Parallax Window Section END --- */
+
+
 
 .bg-extra-medium-gray .skills .prog-item .skills-progress,
 .bg-dark-gray .skills .prog-item .skills-progress {
@@ -1921,6 +1964,162 @@ ul.countdown li p.timeRefSeconds {
  filter:alpha(opacity=100);
 }
 
+/*!* ---------  Section video styles --------- *!*/
+
+#videoDiv {
+    width: 100%; 
+    height: 38vw; 
+    position: relative;
+  }
+
+  #videoBlock {
+    width: 100%; 
+    height: 100%;  
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .videoMessage {
+    width: 100%; 
+    height:100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+  }
+
+  .videoOverlay {
+    width: 100%; 
+    height:100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    background-image: radial-gradient(rgba(2, 2, 2, 0.7), rgba(252, 249, 249, 0.171));
+  }
+
+  .videoMessage * {
+    padding: 0.4vw; 
+    margin:0
+  }
+  .videoMessage {
+    text-shadow: 2px 2px 2px #000000; 
+    color:white;
+    z-index:1;
+  }
+
+  .videoMessage .spacer1 {
+    font-size: 2.5vw;
+    color:white;
+    position: relative;
+    padding: 10vw 0 0 9vw;
+    font-style: italic;
+  }
+
+  .videoMessage .spacer2 {
+    font-size: 5vw;
+    font-weight: 700;
+    color:white;
+    position: relative;
+    text-align: center;
+    padding: 2vw 0 0 0;
+
+  }
+
+  .videoMessage .spacer3 {
+    font-size: 1.6vw;
+    color:rgb(10, 10, 10);
+    position: relative;
+    top: 7px;
+    margin: 0 12vw 0 28vw;
+    /* padding: 0vw 1vw 0vw 2vw; */
+    left: 5vw;
+    line-height: 2vw;
+    font-weight: 400;
+    text-shadow: none;
+    text-align: center;
+  }
+  
+  .div-spacer3 h2 {
+      background-color: rgba(247, 246, 243, 0.438);
+  }
+
+  .videoMessage .spacer4 {
+    position: relative;
+    font-size: 1.6vw;
+    color:rgba(255, 255, 255, 0.822);
+    top: 3vw;
+    left: -1vw;
+    /* padding: 0vw 1vw 0vw 2vw; */
+    line-height: 2vw;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .videoClick {
+    position: relative;
+    top: 4vw;
+    text-align: center;
+  }
+
+  .videoClick img {
+    height: 16vw;
+    cursor: pointer;
+    cursor: hand;
+    opacity: 1;
+  }
+
+  /* Mobile XS View Text Video Display Settings */
+  
+
+  .videoMessage .spacer1sm {
+    font-size: 2.5vw;
+    color:white;
+    position: relative;
+    padding: 12vw 0 0 4vw;
+    font-style: italic;
+  }
+
+  .videoMessage .spacer2sm {
+    font-size: 5vw;
+    font-weight: 600;
+    color:white;
+    position: relative;
+    text-align: center;
+    top: -3vw;
+
+  }
+
+  .videoMessage .spacer3sm {
+    font-size: 1.6vw;
+    color:rgb(10, 10, 10);
+    position: relative;
+    top: 10px;
+    margin: 0 12vw 0 28vw;
+    /* padding: 0vw 1vw 0vw 2vw; */
+    left: 5vw;
+    line-height: 2vw;
+    font-weight: 400;
+    text-shadow: none;
+    text-align: center;
+  }
+  
+  .div-spacer3sm h2 {
+      background-color: rgba(247, 246, 243, 0.438);
+  }
+
+  .videoClicksm {
+    position: relative;
+    top: 18vw;
+    text-align: center;
+  }
+
+  .videoClicksm img {
+    height: 27vw;
+    cursor: pointer;
+    cursor: hand;
+    opacity: 1;
+  }
+
 /* ------------------------------ MEDIA QUERY min-width 992px SCREEN ------------------------------ */
 @media screen and (min-width: 992px) {
  .navbar-expand-lg .navbar-collapse.desktop-hide {
@@ -2165,6 +2364,8 @@ section.contact {
         background-image: url("../img/LYCS_BLUR_621x896_002_BLUR_Center.jpg");
         }
     
+    
+    
     .nav-transparent img {
         height: 12vw;
         margin-left: 3vw;
@@ -2249,6 +2450,11 @@ section.contact {
     .main-timeline:before {
         background:#c6c6c6;
         }
+    
+    .banner-words-wrapper {
+        width: 27vw;
+        }
+    
        
 }
 
@@ -2274,9 +2480,9 @@ section.contact {
         padding-bottom: 0.5vw;
         }
     
-        .main-timeline:before {
-            background:#c6c6c6;
-        }
+    .main-timeline:before {
+        background:#c6c6c6;
+    }
        
 }
 
@@ -2302,7 +2508,7 @@ section.contact {
         }
 }
 
-/* Tablet-Portrait LARGE (992px and up) */
+/* Tablet-Portrait LARGE (994px and up) */
 @media screen and (min-width: 994px) and (min-height: 1200px) {
     header {
         background-image: url("../img/LYCS_BLUR_1024x1366px_center.jpg");
@@ -2320,6 +2526,10 @@ section.contact {
         margin-top: 0vw;
         padding-top: 0.5vw;
         padding-bottom: 0.5vw;
+        }
+
+    .banner-words-wrapper {
+        width: 29vw;
         }
 }
 
@@ -2343,6 +2553,10 @@ section.contact {
             padding-top: 0.5vw;
             padding-bottom: 0.5vw;
             }
+
+    .banner-words-wrapper {
+        width: 24vw;
+        }
     
 }
 
@@ -2365,6 +2579,11 @@ section.contact {
         padding-top: 0.5vw;
         padding-bottom: 0.5vw;
         }
+    
+    .banner-words-wrapper {
+        width: 21vw;
+        }
+
 }
 
 /* Desktop or X-Large devices (1900px and up) */
@@ -2386,9 +2605,20 @@ section.contact {
         padding-top: 0.2vw;
         padding-bottom: 0.2vw;
         }
+    
+    .banner-words-wrapper {
+        width: 16vw;
+        }
 
 }
 
+/* Desktop or X-Large devices (3600px and up) */
+@media screen and (min-width: 3600px) {
+    
+    .banner-words-wrapper {
+        width: 8vw;
+        }
 
+}
 
 /*# sourceMappingURL=style.css.map */
