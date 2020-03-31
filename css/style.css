@@ -352,21 +352,82 @@ a:hover, a:active {
  z-index:2
 }
 
-.svg-bottom-pic {
+/* Separators positionning upon the different screen sizes */
+
+
+/*  SVG PIC TOP */
+.svg-top-pic-xs-sm {
     position:absolute;
-    bottom:-70px;
+    top: 0px;
+    left:0;
+    width:100%;
+    z-index:2
+}
+
+.svg-top-pic-lg-xl {
+    position:absolute;
+    top:-25px;
+    left:0;
+    width:100%;
+    z-index:2
+}
+
+/*  SVG PIC BOTTOM */
+.svg-bottom-pic-xs-sm {
+    position:absolute;
+    bottom:-30px;
     left:0;
     width:100%;
     z-index:2
    }
 
-.svg-top {
+.svg-bottom-pic-lg-xl {
     position:absolute;
-    top:-31px;
+    bottom: -72px;
     left:0;
     width:100%;
     z-index:2
    }
+
+/*  SVG "U" TOP */
+
+.svg-top-u-xs-sm {
+    position:absolute;
+    top: 0px;
+    left:0;
+    width:100%;
+    z-index:2
+}
+
+.svg-top-u-lg-xl {
+    position:absolute;
+    top:-25px;
+    left:0;
+    width:100%;
+    z-index:2
+}
+
+/*  SVG "U" BOTTOM */
+.svg-bottom-u-xs-sm {
+    position:absolute;
+    bottom: 0px;
+    left:0;
+    width:100%;
+    z-index:2
+   }
+
+.svg-bottom-u-lg-xl {
+    position:absolute;
+    bottom: 0px;
+    left:0;
+    width:100%;
+    z-index:2
+   }
+
+
+
+
+
 
    .svg-top-md {
     position:absolute;
@@ -2390,7 +2451,7 @@ section.contact {
 /* Mobile-Landscape and larger (480px and up) */
 @media screen and (min-width: 480px) {
     header {
-        background-image: url("../img/LYCS_BLUR_896x414px_Landscape_center.jpg");
+        background-image: url("../img/LYCS_BLUR_621x896_002_BLUR_Center.jpg");
         }
 
     .nav-transparent img {
