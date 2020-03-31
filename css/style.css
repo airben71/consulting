@@ -375,7 +375,7 @@ a:hover, a:active {
 /*  SVG PIC BOTTOM */
 .svg-bottom-pic-xs-sm {
     position:absolute;
-    bottom:-30px;
+    bottom:-100px;
     left:0;
     width:100%;
     z-index:2
@@ -393,7 +393,7 @@ a:hover, a:active {
 
 .svg-top-u-xs-sm {
     position:absolute;
-    top: 0px;
+    top: -100px;
     left:0;
     width:100%;
     z-index:2
@@ -401,7 +401,7 @@ a:hover, a:active {
 
 .svg-top-u-lg-xl {
     position:absolute;
-    top:-25px;
+    top:-100px;
     left:0;
     width:100%;
     z-index:2
@@ -1553,7 +1553,7 @@ a:hover, a:active {
  margin:0
 }
 .testimonials .owl-theme .owl-dots {
- margin-top:40px !important
+ margin-top: 40px !important
 }
 .testimonials .owl-theme .owl-dots .owl-dot span {
  border-color:1px solid #fff;
