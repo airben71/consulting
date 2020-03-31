@@ -426,8 +426,71 @@
     </section>
     <!-- End About Section-->
 
-    <!-- Start Parallax Window Section-->
-    <div class="parallax d-none d-sm-block" data-parallax="scroll" data-z-index="-10"
+    <!-- Start Parallax Window Section for MEDIUM Devices onnly-->
+    <div class="parallax d-none d-md-block d-lg-none" data-parallax="scroll" data-z-index="-10"
+        data-image-src="./img/LYCS_BLUR_768x435_Ceiling_001_SHARP.jpg" style="height: 650px;" data-overlay-dark="4" speed="float: 0.4" scale="1.5">
+    
+
+
+        <div class="svg" z-index="10">
+            <svg fill="#fff" version="1.1" width="100%" height="100" viewbox="0 0 100 102" preserveaspectratio="none">
+                <path d="M0 30 L50 90 L100 30 V100 H0"></path>
+            </svg>
+        </div>
+        <!-- Start Testimonials Section -->
+        <section class="center-col testimonials text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 center-col margin-30px-bottom sm-margin-20px-bottom xs-margin-10px-bottom text-center">
+                        <h3 class="font-weight-700 font-size32 md-font-size27 sm-font-size24 xs-font-size20">Testimonials</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="position-relative">
+                            <div class="owl-carousel owl-theme">
+
+                                <!-- start testimonials item-->
+                                <div>
+                                    <i class="fas fa-quote-left font-size22 margin-40px-bottom sm-margin-30px-bottom xs-margin-20px-bottom theme-black-color-parallax"></i>
+                                    <p class="width-75 sm-width-85 xs-width-90 center-col padding-40px-bottom sm-padding-30px-bottom xs-padding-20px-bottom font-size16 xs-font-size14">Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.</p>
+                                    <h4 class="theme-black-color">Jama Karle</h4>
+                                    <h6>CEO</h6>
+                                </div>
+                                <!-- end testimonials item-->
+
+                                <!-- start testimonials item-->
+                                <div>
+                                    <i class="fas fa-quote-left font-size22 margin-40px-bottom sm-margin-30px-bottom xs-margin-20px-bottom theme-black-color-parallax"></i>
+                                    <p class="width-75 sm-width-85 xs-width-90 center-col padding-40px-bottom sm-padding-30px-bottom xs-padding-20px-bottom font-size16 xs-font-size14">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,deserunt mollit anim id est laborum.</p>
+                                    <h4 class="theme-black-color">Ivonne Drennan</h4>
+                                    <h6>Manager</h6>
+                                </div>
+                                <!-- end testimonials item-->
+
+                                <!-- start testimonials item-->
+                                <div>
+                                    <i class="fas fa-quote-left font-size22 margin-40px-bottom sm-margin-30px-bottom xs-margin-20px-bottom theme-black-color-parallax"></i>
+                                    <p class="width-75 sm-width-85 xs-width-90 center-col padding-40px-bottom sm-padding-30px-bottom xs-padding-20px-bottom font-size16 xs-font-size14">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris commodo consequat.</p>
+                                    <h4 class="theme-black-color">Bettye Mauck</h4>
+                                    <h6>Designer</h6>
+                                </div>
+                                <!-- end testimonials item-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Testimonials Section -->
+        <!-- <div class="parallax-info font-size34 md-font-size30 sm-font-size26 xs-font-size24 font-weight-700 style2">My Experience
+        </div> -->
+    </div>
+    <!-- End Parallax Window Section-->
+
+    <!-- Start Parallax Window Section for LARGE Devices onnly-->
+    <div class="parallax d-none d-lg-block" data-parallax="scroll" data-z-index="-10"
         data-image-src="./img/LYCS_BLUR_1920x1080_Ceiling_001_SHARP.jpg" style="height: 650px;" data-overlay-dark="4" speed="float: 0.4" scale="1.5">
     
 
@@ -488,6 +551,11 @@
         </div> -->
     </div>
     <!-- End Parallax Window Section-->
+
+
+
+
+
 
     <!-- Start Timeline Section-->
     <section data-scroll-index="3" class="padding-0px-top padding-0px-bottom xs-padding-0px-top xs-padding-0px-bottom d-none d-sm-block">
@@ -796,7 +864,7 @@
     <!-- Start of video Section -->
 
     <!-- Start of video for TABLETS and Larger Devices Section -->
-    <div class="embed-responsive embed-responsive-16by9 d-none d-sm-block">
+    <div class="embed-responsive embed-responsive-16by9 d-none d-lg-block">
         
         <!-- TOP Section Separator -->
         <div class="svg-top-md" z-index="10">
@@ -836,7 +904,7 @@
 
 
     <!-- Start of video for MOBILE-XS Devices Section -->
-    <div class="embed-responsive embed-responsive-16by9 d-block d-sm-none">
+    <div class="embed-responsive embed-responsive-16by9 d-block d-lg-none">
 
         <!-- TOP Section Separator -->
         <div class="svg-top" z-index="10">
@@ -854,10 +922,13 @@
         
 
         <!-- Video Configuration or MOBILE-XS Devices Section -->
-            <video class="video-fluid" autoplay loop muted>
-                <source class="embed-responsive-item" src="./video/timelaps-gva.mp4" type="video/mp4" allowfullscreen frameborder="0">
-                <source class="embed-responsive-item" src="./video/timelaps-gva.webm" type="video/webm" allowfullscreen frameborder="0">
-            </video>
+            <video class="video-fluid d-block d-lg-none" autoplay loop muted poster="./video/TimeLapse-gva_768x435_001_SHARP.jpg">
+                <source class="embed-responsive-item d-none" src="./video/timelaps-gva1.mp4" type="video/mp4" allowfullscreen frameborder="0">
+                <source class="embed-responsive-item d-none" src="./video/timelaps-gva1.webm" type="video/webm" allowfullscreen frameborder="0">
+                </video>
+                
+                <!-- <source class="embed-responsive-item" src="./video/timelaps-gva.mp4" type="video/mp4" allowfullscreen frameborder="0">
+                <source class="embed-responsive-item" src="./video/timelaps-gva.webm" type="video/webm" allowfullscreen frameborder="0"> -->
             <!-- <iframe class="embed-responsive-item" src="./video/timelaps-gva.mp4" allowfullscreen muted frameborder="0"></iframe> -->
             <div class="videoOverlay" data-overlay-dark="3" zindex="1"></div>
             <div class="videoMessage">
